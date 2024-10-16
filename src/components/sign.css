@@ -1,0 +1,26 @@
+/* sign.css */
+
+/* Apply a background color to the entire body */
+body {
+    background-color: #548bbb; /* Your desired background color */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a default font for the entire app */
+}
+
+/* Styles for the sign-in container */
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height for vertical centering */
+}
+
+/* Styles for the sign-in box */
+.signin-box {
+    border: 1px solid #ced4da;
+    padding: 1.5rem; /* Padding for the box */
+    border-radius: 1rem; /* Rounded corners */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    background-color: rgb(175, 190, 223); /* White background for the box */
+    width: 400px; /* Fixed width for the sign-in box */
+}
